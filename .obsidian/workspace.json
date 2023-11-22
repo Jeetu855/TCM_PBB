@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "a31a343cc7aefe30",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ceef872d7531d54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fde8a97779cec575",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5934a8d6752dc804",
+    "type": "split",
+    "children": [
+      {
+        "id": "a88b5a1e56ff727a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f89b3c51ec6dcec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "300bb2a1fea01fa8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0df3186afcbf94c8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f3208cb23491ff3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c38a804eae0cea6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "431bea6c69121415",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d0d55d61fa7c4dff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9da2e36d73991a1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "332d380b7d256fa4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fde8a97779cec575",
+  "lastOpenFiles": [
+    "Authentication and Authorization Attacks/Attachments/Autorize.png",
+    "Authentication and Authorization Attacks/Attachments/API.png",
+    "Authentication and Authorization Attacks/Attachments/MFA.png",
+    "Reconnaissance and Information Gathering/Reconnaissance.md",
+    "Web Application Security/Attachments/stepsEngagement.png",
+    "Web Application Security/Attachments/non-impact.png",
+    "Web Application Security/Attachments/pentestvsBB.png",
+    "Web Application Security/Attachments/standards.png",
+    "Web Application Security/Attachments/security.png",
+    "Web Application Security/Attachments/importance.png",
+    "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+    "Authentication and Authorization Attacks/Attachments",
+    "Web Application Security/Importance of Web Application Security.md",
+    "Authentication and Authorization Attacks",
+    "Reconnaissance and Information Gathering",
+    "Web Application Security/Attachments",
+    "Web Application Security"
+  ]
+}
