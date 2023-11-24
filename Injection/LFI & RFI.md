@@ -30,7 +30,7 @@ http://localhost/labs/fi0x01.php?filename=../../../../../../../../etc/passwd
 ```
 
 
-![[Pasted image 20231124133644.png]]
+![[lfi1.png]]
 
 And we get the /etc/passwd data
 
@@ -71,7 +71,7 @@ http://localhost/labs/fi0x02.php?filename=files%2F..././..././..././..././..././
 This works is server is filtering ou '../' so what happens is that it filters out which was an extra we used to trick it and what remains after filtering out is ../../../
 
 
-![[Pasted image 20231124135744.png]]
+![[lfi2.png]]
 
 
 We can an LFI here
@@ -82,7 +82,7 @@ Now check for RFI
 http://localhost/labs/fi0x02.php?filename=https://google.com
 ```
 
-![[Pasted image 20231124135909.png]]
+![[rfi.png]]
 
 
 We also have an RFI
@@ -106,7 +106,7 @@ Gives us base64 encoded output
 
 Decoding it gives
 
-![[Pasted image 20231124140531.png]]
+![[lif3.png]]
 
 So we can steal database credentials as well
 
@@ -129,7 +129,7 @@ Try
 GET /labs/api/fetchRecipe.php?filename=....//....//....//....//....//....//etc/passwd
 ```
 
-![[Pasted image 20231124141059.png]]
+![[lfichallenge.png]]
 
 And we have LFI
 
