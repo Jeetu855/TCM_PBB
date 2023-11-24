@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+                "file": "Injection/Injection Attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+                "file": "Injection/Injection Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+                "file": "Injection/Injection Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md"
+                "file": "Injection/Injection Attacks.md"
               }
             }
           }
@@ -149,6 +149,15 @@
   },
   "active": "fde8a97779cec575",
   "lastOpenFiles": [
+    "Injection/Attachments/Pasted image 20231124141059.png",
+    "Injection/Attachments/Pasted image 20231124140531.png",
+    "Injection/Attachments/Pasted image 20231124135909.png",
+    "Injection/Attachments/Pasted image 20231124135744.png",
+    "Injection/Attachments/Pasted image 20231124133644.png",
+    "Injection/Attachments",
+    "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+    "Injection/Injection Attacks.md",
+    "Injection",
     "Authentication and Authorization Attacks/Attachments/Autorize.png",
     "Authentication and Authorization Attacks/Attachments/API.png",
     "Authentication and Authorization Attacks/Attachments/MFA.png",
@@ -156,10 +165,6 @@
     "Web Application Security/Attachments/stepsEngagement.png",
     "Web Application Security/Attachments/non-impact.png",
     "Web Application Security/Attachments/pentestvsBB.png",
-    "Web Application Security/Attachments/standards.png",
-    "Web Application Security/Attachments/security.png",
-    "Web Application Security/Attachments/importance.png",
-    "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
     "Authentication and Authorization Attacks/Attachments",
     "Web Application Security/Importance of Web Application Security.md",
     "Authentication and Authorization Attacks",
