@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Injection/Command injection.md",
+                "file": "Injection/Insecure File Uploads.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#PCDATA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f3208cb23491ff3e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Injection/Command injection.md",
+                "file": "Injection/Insecure File Uploads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Injection/Command injection.md",
+                "file": "Injection/Insecure File Uploads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Injection/Command injection.md"
+                "file": "Injection/Insecure File Uploads.md"
               }
             }
           }
@@ -149,8 +148,15 @@
   },
   "active": "fde8a97779cec575",
   "lastOpenFiles": [
-    "Injection/Attachments/commandInjection.png",
+    "Injection/XML External Entity (XXE).md",
+    "Injection/Insecure File Uploads.md",
+    "Injection/Attachments/xxe.png",
+    "Injection/Attachments/ssti3.png",
+    "Injection/Attachments/ssti2.png",
+    "Injection/Attachments/ssti1.png",
+    "Injection/Server Side Template Injection (SSTI).md",
     "Injection/Command injection.md",
+    "Injection/Attachments/commandInjection.png",
     "Injection/SQli.md",
     "Injection/Cross Site Scripting (XSS).md",
     "Injection/Attachments/secondOrderSqli.png",
@@ -159,10 +165,6 @@
     "Injection/Attachments/sqli3.png",
     "Injection/Attachments/sqli2.png",
     "Injection/Attachments/sqli1.png",
-    "Injection/Attachments/lfichallenge.png",
-    "Injection/Attachments/lif3.png",
-    "Injection/Attachments/rfi.png",
-    "Injection/Attachments/lfi2.png",
     "Injection/Attachments",
     "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
     "Injection",
