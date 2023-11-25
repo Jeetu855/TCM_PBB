@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other Common Vulnerailities/Other Vulnerabilities.md",
+                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Other Common Vulnerailities/Other Vulnerabilities.md",
+                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Other Common Vulnerailities/Other Vulnerabilities.md",
+                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Other Common Vulnerailities/Other Vulnerabilities.md"
+                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md"
               }
             }
           }
@@ -146,16 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fde8a97779cec575",
+  "active": "5f89b3c51ec6dcec",
   "lastOpenFiles": [
-    "Other Common Vulnerailities/Attachments/ssrf4.png",
+    "Reporting/Attachments/reporting9.png",
+    "Reporting/Attachments/reporting8.png",
+    "Reporting/Attachments/reporting7.png",
+    "Reporting/Attachments/reporting6.png",
+    "Reporting/Attachments/reporting5.png",
+    "Reporting/Attachments/reporting4.png",
+    "Reporting/Attachments/reporting3.png",
+    "Reporting/Attachments/reporting2.png",
+    "Reporting/Attachments/reporting1.png",
+    "Reporting/Reporting.md",
+    "Reporting/Attachments/Pasted image 20231125235521.png",
+    "Reporting/Attachments/Pasted image 20231125235605.png",
+    "Reporting/Attachments",
     "Other Common Vulnerailities/Other Vulnerabilities.md",
-    "Other Common Vulnerailities/Other Vulnerabilities.md",
-    "Other Common Vulnerailities/Attachments/ssrf3.png",
-    "Other Common Vulnerailities/Attachments/ssrf2.png",
-    "Other Common Vulnerailities/Attachments/ssrf1.png",
-    "Other Common Vulnerailities/Attachments/csrf2.png",
-    "Other Common Vulnerailities/Attachments/csrf1.png",
+    "Reporting",
     "Other Common Vulnerailities/Server Side Request Forgery (SSRF).md",
     "Other Common Vulnerailities/Cross Site Request Forgery (CSRF).md",
     "Other Common Vulnerailities/Attachments",
@@ -164,10 +171,6 @@
     "Injection/Insecure File Uploads.md",
     "Automation",
     "Injection/XML External Entity (XXE).md",
-    "Injection/Attachments/xxe.png",
-    "Injection/Attachments/ssti3.png",
-    "Injection/Attachments/ssti2.png",
-    "Injection/Attachments/ssti1.png",
     "Injection/Server Side Template Injection (SSTI).md",
     "Injection/Command injection.md",
     "Injection/SQli.md",
@@ -180,8 +183,6 @@
     "Authentication and Authorization Attacks/Attachments",
     "Web Application Security/Importance of Web Application Security.md",
     "Authentication and Authorization Attacks",
-    "Reconnaissance and Information Gathering",
-    "Web Application Security/Attachments",
-    "Web Application Security"
+    "Reconnaissance and Information Gathering"
   ]
 }
