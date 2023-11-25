@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Injection/SQli.md",
+                "file": "Injection/Command injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Injection/SQli.md",
+                "file": "Injection/Command injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Injection/SQli.md",
+                "file": "Injection/Command injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Injection/SQli.md"
+                "file": "Injection/Command injection.md"
               }
             }
           }
@@ -149,8 +149,11 @@
   },
   "active": "fde8a97779cec575",
   "lastOpenFiles": [
-    "Injection/Attachments/secondOrderSqli.png",
+    "Injection/Attachments/commandInjection.png",
+    "Injection/Command injection.md",
     "Injection/SQli.md",
+    "Injection/Cross Site Scripting (XSS).md",
+    "Injection/Attachments/secondOrderSqli.png",
     "Injection/Attachments/sqli4.png",
     "Injection/LFI & RFI.md",
     "Injection/Attachments/sqli3.png",
@@ -160,7 +163,6 @@
     "Injection/Attachments/lif3.png",
     "Injection/Attachments/rfi.png",
     "Injection/Attachments/lfi2.png",
-    "Injection/Attachments/lfi1.png",
     "Injection/Attachments",
     "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
     "Injection",
