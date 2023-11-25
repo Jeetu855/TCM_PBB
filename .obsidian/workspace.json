@@ -11,11 +11,9 @@
             "id": "fde8a97779cec575",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Injection/Insecure File Uploads.md",
-                "mode": "source",
-                "source": false
+                "file": "Other Common Vulnerailities/Attachments/ssrf4.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Injection/Insecure File Uploads.md",
+                "file": "Other Common Vulnerailities/Attachments/ssrf4.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Injection/Insecure File Uploads.md",
+                "file": "Other Common Vulnerailities/Attachments/ssrf4.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Injection/Insecure File Uploads.md"
+                "file": "Other Common Vulnerailities/Attachments/ssrf4.png"
               }
             }
           }
@@ -148,23 +146,30 @@
   },
   "active": "fde8a97779cec575",
   "lastOpenFiles": [
-    "Injection/XML External Entity (XXE).md",
+    "Other Common Vulnerailities/Other Vulnerabilities.md",
+    "Other Common Vulnerailities/Attachments/ssrf4.png",
+    "Other Common Vulnerailities/Attachments/ssrf3.png",
+    "Other Common Vulnerailities/Attachments/ssrf2.png",
+    "Other Common Vulnerailities/Attachments/ssrf1.png",
+    "Other Common Vulnerailities/Attachments/csrf2.png",
+    "Other Common Vulnerailities/Attachments/csrf1.png",
+    "Other Common Vulnerailities/Server Side Request Forgery (SSRF).md",
+    "Other Common Vulnerailities/Cross Site Request Forgery (CSRF).md",
+    "Other Common Vulnerailities/Attachments",
+    "Automation/Recon Script.md",
+    "Other Common Vulnerailities",
     "Injection/Insecure File Uploads.md",
+    "Automation",
+    "Injection/XML External Entity (XXE).md",
     "Injection/Attachments/xxe.png",
     "Injection/Attachments/ssti3.png",
     "Injection/Attachments/ssti2.png",
     "Injection/Attachments/ssti1.png",
     "Injection/Server Side Template Injection (SSTI).md",
     "Injection/Command injection.md",
-    "Injection/Attachments/commandInjection.png",
     "Injection/SQli.md",
     "Injection/Cross Site Scripting (XSS).md",
-    "Injection/Attachments/secondOrderSqli.png",
-    "Injection/Attachments/sqli4.png",
     "Injection/LFI & RFI.md",
-    "Injection/Attachments/sqli3.png",
-    "Injection/Attachments/sqli2.png",
-    "Injection/Attachments/sqli1.png",
     "Injection/Attachments",
     "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
     "Injection",
