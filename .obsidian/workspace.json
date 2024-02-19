@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+                "file": "Automation/Recon Script.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f3208cb23491ff3e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+                "file": "Automation/Recon Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
+                "file": "Automation/Recon Script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md"
+                "file": "Automation/Recon Script.md"
               }
             }
           }
@@ -146,8 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f89b3c51ec6dcec",
+  "active": "fde8a97779cec575",
   "lastOpenFiles": [
+    "Other Common Vulnerailities/Server Side Request Forgery (SSRF).md",
+    "Injection/Server Side Template Injection (SSTI).md",
+    "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
     "Reporting/Attachments/reporting9.png",
     "Reporting/Attachments/reporting8.png",
     "Reporting/Attachments/reporting7.png",
@@ -159,11 +163,9 @@
     "Reporting/Attachments/reporting1.png",
     "Reporting/Reporting.md",
     "Reporting/Attachments/Pasted image 20231125235521.png",
-    "Reporting/Attachments/Pasted image 20231125235605.png",
     "Reporting/Attachments",
     "Other Common Vulnerailities/Other Vulnerabilities.md",
     "Reporting",
-    "Other Common Vulnerailities/Server Side Request Forgery (SSRF).md",
     "Other Common Vulnerailities/Cross Site Request Forgery (CSRF).md",
     "Other Common Vulnerailities/Attachments",
     "Automation/Recon Script.md",
@@ -171,13 +173,11 @@
     "Injection/Insecure File Uploads.md",
     "Automation",
     "Injection/XML External Entity (XXE).md",
-    "Injection/Server Side Template Injection (SSTI).md",
     "Injection/Command injection.md",
     "Injection/SQli.md",
     "Injection/Cross Site Scripting (XSS).md",
     "Injection/LFI & RFI.md",
     "Injection/Attachments",
-    "Authentication and Authorization Attacks/Authentication and Authorization Attacks.md",
     "Injection",
     "Reconnaissance and Information Gathering/Reconnaissance.md",
     "Authentication and Authorization Attacks/Attachments",

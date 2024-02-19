@@ -1,12 +1,19 @@
-
 ```sh
 #!/bin/bash
 
+
+
 domain=$1 
+
+
 
 RED="\033[1;31m"
 
+
+
 RESET="\033[0m"
+
+
 
 subdomain_path=$domain/subdomains
 
@@ -14,11 +21,15 @@ screeshot_path=$domain/screenshots
 
 scan_path=$domain/scans
 
+
+
 if [ ! -d "$domain" ];then
 
 	mkdir $domain 
 
 fi
+
+
 
 if [ ! -d "$subdomain_path" ];then
 
@@ -26,11 +37,15 @@ if [ ! -d "$subdomain_path" ];then
 
 fi
 
+
+
 if [ ! -d "$screeshot_path" ];then
 
 	mkdir $screeshot_path 
 
 fi
+
+
 
 if [ ! -d "$scan_path" ];then
 
@@ -38,36 +53,65 @@ if [ ! -d "$scan_path" ];then
 
 fi
 
+
+
 echo -e "${RED}  [+]  Launching subfinder . . .  ${RESET}"
+
+
 
 subfinder -d $domain > $subdomain_path/found.txt
 
 
+
 echo -e "${RED}  [+]  Launching assetfinder . . .  ${RESET}"
+
 
 
 assetfinder $domain | grep $domain >> $subdomain_path/found.txt
 
 
 
-#echo -e "${RED}  [+]  Launching amass . . .  ${RESET}"
+echo -e "${RED}  [+]  Launching amass . . .  ${RESET}"
 
 # amass is slow and takes a while to run
 
-#amass enum -d $domain >> $subdomain_path/found.txt
+amass enum -d $domain >> $subdomain_path/found.txt
+
+
+
+echo -e "${RED}  [+]  Launching waymore . . .  ${RESET}"
+
+python3 /opt/SubDomainizer SubDomainizer.py -u $domain >> $subdomain_path/found.txt
+
+
+
+echo -e "${RED}  [+]  Launching waymore . . .  ${RESET}"
+
+
+
+python3 /opt/scripts/waymore.py -i $domain -mode U >> $subdomain_path/found.txt
+
+
+
+cat $subdomain_path/waymore.txt >> $subdomain_path/found.txt
+
+rm $subdomain_path/waymore.txt
 
 
 
 echo -e "${RED}  [+]  Finding alive subdomains . . .  ${RESET}"
 
 
+
 cat $subdomain_path/found.txt | grep $domain | sort -u | httprobe -prefer-https | grep https | sed 's/https\?:\/\///' | tee -a $subdomain_path/alive.txt
+
 
 
 echo -e "${RED}  [+]  Taking Screeshots on alive subdomains . . .  ${RESET}"
 
 
-gowitness file -f $subdomain_path/alive.txt -P $screenshot_path --no-http
+
+gowitness file -f $subdomain_path/alive.txt -P $screenshot_path/ --no-http
 
 
 
@@ -78,4 +122,3 @@ gowitness file -f $subdomain_path/alive.txt -P $screenshot_path --no-http
 #nmap -iL $subdomain_path/alive.txt -oN $scan_path/nmap.txt
 
 ```
-
